@@ -11,6 +11,12 @@ body{
 .navbar img{
 	padding-left: 170px;
 }
+.signup{
+	padding-left: 70px;
+}
+.signin{
+	padding-left: 10px;
+}
 .jumbotron img{
 	width: 600px;
 	margin-right: 100px;
