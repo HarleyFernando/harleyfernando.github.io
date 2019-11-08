@@ -17,38 +17,38 @@ body{
 .signin{
 	padding-left: 10px;
 }
-.category .container{
+.whowe .container{
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
-.category .textcategory p{
+.whowe .textwhowe p{
 	font-style: "Helvetica"; 
 	font-size: 45px;
 }
-.tombolcategory{
+.tombolwhowe{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-.post{
+.our{
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
-.post .textpost p{
+.our .textour p{
 	font-style: "Helvetica"; 
 	font-size: 45px;
 	padding-right: 30px;
 }
-.connect{
+.therapist{
 	background-color: #EDEDED;	
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
-.cara{
+.fact{
 	background-color: #EDEDED;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-.cara .textcara p{
+.fact .textfact p{
 	font-size: 45px;
 	padding-right: 30px;
 }
