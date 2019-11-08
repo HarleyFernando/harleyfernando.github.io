@@ -1,0 +1,67 @@
+html{
+	position: relative;
+}
+body{
+	margin-bottom: 120px;
+	margin-top: 30px;
+}
+.navbarright{
+	padding-left: 50px;
+}
+.navbar img{
+	padding-left: 170px;
+}
+.signup{
+	padding-left: 70px;
+}
+.signin{
+	padding-left: 10px;
+}
+.category .container{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.category .textcategory p{
+	font-style: "Helvetica"; 
+	font-size: 45px;
+}
+.tombolcategory{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.post{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.post .textpost p{
+	font-style: "Helvetica"; 
+	font-size: 45px;
+	padding-right: 30px;
+}
+.connect{
+	background-color: #EDEDED;	
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.cara{
+	background-color: #EDEDED;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.cara .textcara p{
+	font-size: 45px;
+	padding-right: 30px;
+}
+.about{
+	padding-top: 100px;
+}
+.about hr{
+	width: 300px;
+	border-top: 3px solid #999;
+}
+.about p{
+	font-size: 20px;
+}
+.our h1{
+	text-align: center;
+}
