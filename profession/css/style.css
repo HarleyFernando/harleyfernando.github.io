@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.back1 {
+	position: relative;
+	background-image: url("../img/bg1.jpg");
+	width: 100%;
+	background-size: cover;
+}
+
+.perkenalan {
+	position: relative;
+	top: 0;
+ 	left: 0;
+}
+
+.kotak1 {
+  	position: relative;
+  	top: 0;
+  	left: 0;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+  	margin-top: 20px;
+}
+
+.plane {
+	position: absolute;
+  	top: 30px;
+  	left: 100%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+  	animation: fly 8s infinite;
+}
+
+@keyframes fly {
+	0% {
+		left: -120PX;
+		top: 5px;
+	}
+	25% {
+		top: -40px;
+	}
+	50% {
+		top: -30px;
+	}
+	100% {
+		left: 80%;
+		top: 102px;
+	}
+}
+
+.centered {
+  	position: absolute;
+  	top: 48%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: #fff;
+}
+
+.profession {
+	margin-top: 0px;
+	padding-top: 70px;
+	position: relative;
+	background-image: url("../img/bg2.jpg");
+	width: 100%;
+	background-size: contain;
+}
+
+.various {
+	margin-top: 0px;
+}
+
+.various p{
+	font-size: 80px;
+	color: #000;
+}
+
+.card {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.wrapper{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.wrapper h1{
+  font-family: 'Yatra One', cursive;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #001630;
+  padding: 20px 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #e9e5fa;  
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 10px;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+   transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab{
+  color: #8c7ae6;
+  font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media{
+  transform: scale(1);
+}
+
+.ourteam {
+	margin-top: -130px;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	position: relative;
+	background-image: url("../img/bg3.jpg");
+	width: 100%;
+	background-size: cover;
+}
+
+.contact {
+	padding-bottom: 100px;
+	background-color: 
+}
